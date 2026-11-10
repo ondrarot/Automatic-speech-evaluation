@@ -4,8 +4,8 @@ import os
 
 def main():
     # Setup your paths
-    data_dir = r"C:\Users\ondra\Desktop\projekt\Test_dataset"
-    output_csv = r"C:\Users\ondra\Desktop\projekt\test_results.csv"
+    data_dir = r"path"
+    output_csv = r"path.csv"
 
     print("Downloading/Loading UTMOSv2 model (this might take a minute the first time)...")
     model = utmosv2.create_model(pretrained=True)
